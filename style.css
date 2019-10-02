@@ -1,0 +1,105 @@
+body{
+	text-align: center;
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color: #e9ebee;
+}
+
+h1, h2{
+	color: #6a6c6e;	
+}
+
+h2{
+	color: #6a6c6e;
+	font-family: 'Vibes', cursive;
+	font-weight: 900;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+i{
+	font-size: 32px;
+}
+
+img{
+	border-radius: 50%;
+	width:200px;
+}
+
+
+
+ul{
+	list-style: none;
+	padding-left: 50px;
+}
+
+li{
+	display: inline;
+}
+
+.title-red{
+	color: red;
+}
+
+#languages li{
+	color: green;
+}
+
+.card{
+	background-color: white;
+	box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+	padding: 25px 12px;
+	margin: 25px 0px;
+}
+
+.container{
+	width: 600px;
+	margin: 35px auto;
+	
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+a:hover{ 
+	background-color: black;
+ }
+
+ .cta{
+ 	background-color: #6a6c6e;
+ 	color: white;
+ 	border-radius: 5%;
+ 	padding: 15px 10px;
+ }
+
+#text {
+	padding: 20px;
+}
+
+body{
+	background-image: url(images/wallpaper.jpg);
+	background-size: cover;
+}
+
+#bg-img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0,0,0,0.34)),url(images/follow.jpg);
+	background-size: 100%;
+	padding-left: 50%;
+}
